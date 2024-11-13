@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="/Bible-Study-App/read.css">
+          <title>READ THE BIBLE</title>
+</head>
+<body>
+          <div id="chapter"></div>
+          <div id="information-container">
+                    <div id="information-header">
+                              <button onclick="openMakeNote()">Make Note</button>
+                              <button onclick="openArticles()">Articles</button>
+                              <button onclick="openVideos()">Videos</button>
+                              <button onclick="exitMainMenu()">Exit</button>
+                    </div>
+                    <div id="information">
+                              <textarea id="note" placeholder="Make a note..."></textarea>
+                              <button>Save Note</button>
+                    </div>
+          </div>
+
+          <div id="article-container">
+                    <div id="article-header">
+                              <button onclick="exitArticles()">Exit</button>
+                    </div>
+                    <div id="articles">
+                              <div class="article">
+                                        <a href="">
+                                                  <img class="thumbnail" src="#" alt="">
+                                                  <h3 class="title">this is the title</h3>
+                                        </a>
+                              </div>
+                              <div class="article">
+                                        <a href="">
+                                                  <img class="thumbnail" src="#" alt="">
+                                                  <h3 class="title">this is the title</h3>
+                                        </a>
+                              </div>
+                              <div class="article">
+                                        <a href="">
+                                                  <img class="thumbnail" src="#" alt="">
+                                                  <h3 class="title">this is the title</h3>
+                                        </a>
+                              </div>
+                    </div>
+          </div>
+
+          <div>
+                    <input id="search" type="text" placeholder="Search for a book...">
+          </div>
+          
+          <script src="/Bible-Study-App/read.js"></script>
+          <script src="/Bible-Study-App/search.js"></script>
+</body>
+</html>

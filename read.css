@@ -1,0 +1,254 @@
+body{
+          background-color: rgb(255, 255, 255);
+          width: 100vw;
+          height: max-content;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+
+#chapter{
+          margin-top: 200px;
+          margin-bottom: 200px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: #333;
+          line-height: 1.6;
+          padding: 20px;
+          width: 40%;
+          display: inline;
+          overflow: auto;
+}
+
+.verse-text{
+          font-size: 18px;
+}
+
+
+.verse-number {
+          opacity: 0;
+}
+
+.verse-wrapper {
+          position: relative;
+          display: inline-block;
+          display: inline;
+          margin-top: 5px;
+          margin-bottom: 5px;
+}
+
+#bibleVerses {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          max-width: 900px;
+          margin: auto;
+          line-height: 1.8;
+}
+
+
+#bibleVerses span {
+          line-height: 1.8;
+}
+
+.tooltip {
+          position: absolute;
+          background-color: rgba(0, 0, 0, 1);
+          color: white;
+          padding: 15px;
+          font-size: 16px;
+          display: none;  /* Hidden by default */
+          pointer-events: none;  /* Prevent the tooltip from interfering with other interactions */
+          max-width: 200px;
+          z-index: 1000;  /* Ensure the tooltip appears on top of other content */
+}
+
+#information-container{
+          position: absolute;
+          top: 0px;
+          margin-top: 100px;
+          right: 0px;
+          width: 400px;
+          height: 500px;
+          background-color: white;
+          padding-bottom: 20px;
+          box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+          opacity: 0;
+}
+
+#information-header{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 30px;
+          gap: 20px;
+}
+
+#information-header button{
+          background-color: black;
+          color: white;
+          padding: 5px;
+          padding-left: 10px;
+          padding-right: 10px;
+          border: none;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          transition: all 0.3s ease;
+}
+
+#information-header button:hover{
+          background-color: white;
+          color: black;
+}
+
+#information{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-direction: column;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#note {
+          width: 75%;
+          height: 65%;
+          padding: 12px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 16px;
+          line-height: 1.5;
+          resize: vertical;
+          outline: none;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          transition: border-color 0.2s ease;
+          white-space: pre-wrap;
+          word-wrap: break-word;
+          vertical-align: top;
+          text-align: left;
+          border: 1px solid black;
+}
+      
+#note:focus {
+          box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+          outline: none;
+}
+
+#information button{
+          width: 80%;
+          height: 40px;
+          border: none;
+          background-color: black;
+          color: white;
+          margin: 20px;
+          transition: all 0.3s ease;
+}
+
+#information button:hover{
+          background-color: white;
+          color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#article-container{
+          position: absolute;
+          top: 0px;
+          margin-top: 100px;
+          left: 0px;
+          width: 400px;
+          height: 500px;
+          background-color: white;
+          padding-bottom: 20px;
+          box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+          opacity: 0;
+          scrollbar-color: black white; /* Thumb color and track color */
+          scrollbar-width: 1px; /* Thin scrollbar */
+}
+
+#article-header{
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          padding: 30px;
+          gap: 20px;
+}
+
+#article-header button{
+          background-color: black;
+          color: white;
+          padding: 5px;
+          padding-left: 10px;
+          padding-right: 10px;
+          border: none;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          transition: all 0.3s ease;
+}
+
+#article-header button:hover{
+          background-color: white;
+          color: black;
+}
+
+#articles{
+          width: 360px;
+          height: 80%;
+          padding-left: 20px;
+          padding-right: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          overflow-y: auto;
+}
+
+.article{
+          width: 95%;
+          height: max-content;
+}
+
+.article .thumbnail{
+          width: 100%;
+          height: 200px;
+}
+
+.article .title{
+          color: black;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 30px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+}
+
+a{
+          text-decoration: none;
+}
+
+
+
+
+
+
+
+#search{
+          width: 20vw;
+          height: 40px;
+          padding-left: 10px;
+          position: fixed;
+          bottom: 5vh;
+          left: 40vw;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          border: 1px black solid;
+}
+
+#search:focus{
+          outline: none;
+}
