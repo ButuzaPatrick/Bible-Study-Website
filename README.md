@@ -1,6 +1,6 @@
 # Bible Study App
 
-Welcome to the **Bible Study App** repository! This project is an open-source Bible study tool designed for simplicity, accessibility, and ease of use. Built using only HTML, CSS, and JavaScript, this app is ideal for Bible study enthusiasts who want a lightweight, user-friendly platform for reading and exploring scripture.
+Welcome to the **Bible Study App** repository! This project is an open-source Bible study/scripture tool designed for simplicity, accessibility, and ease of use. Built using only HTML, CSS, and JavaScript, this app is ideal for Bible study enthusiasts who want a lightweight, user-friendly platform for reading and exploring scripture.
 
 ## Features
 
