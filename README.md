@@ -24,8 +24,8 @@ To run the Bible Study App locally:
    ```bash
    cd bible-study-app
 
-3. **Open** *index.html* **in a web browser**:
-   Simply open the *index.html* file in your preferred web browser to start using the app
+3. **Open** `read.html` **in a web browser**:
+   Simply open the `read.html` file in your preferred web browser to start using the app
 
 ### Usage
 - Enter a book and chapter to search and load the text
