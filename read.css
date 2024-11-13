@@ -35,6 +35,15 @@ body{
           display: inline;
           margin-top: 5px;
           margin-bottom: 5px;
+          
+}
+
+.verse-wrapper.hovered {
+          text-decoration: underline;
+}
+
+.hovered{
+          text-decoration: underline;
 }
 
 #bibleVerses {
