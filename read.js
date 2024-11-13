@@ -122,6 +122,7 @@ function exitArticles() {
   const div = document.getElementById("article-container");
   div.style.transition = "opacity 0.5s ease"; // Fade out over 0.5 seconds
   div.style.opacity = "0";
+  div.style.transform = "translateX(-400px)";
   div.style.pointerEvents = "none";
 };
 
@@ -129,6 +130,7 @@ function openArticles() {
   const div = document.getElementById("article-container");
   div.style.transition = "opacity 0.5s ease"; // Fade out over 0.5 seconds
   div.style.opacity = "1";
+  div.style.transform = "translateX(0px)";
   div.style.pointerEvents = "auto";
 };
 

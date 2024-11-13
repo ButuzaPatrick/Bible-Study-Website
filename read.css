@@ -25,10 +25,6 @@ body{
 }
 
 
-.verse-number {
-          opacity: 0;
-}
-
 .verse-wrapper {
           position: relative;
           display: inline-block;
@@ -180,8 +176,10 @@ body{
           padding-bottom: 20px;
           box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
           opacity: 0;
+          pointer-events: "none";
           scrollbar-color: black white; /* Thumb color and track color */
           scrollbar-width: 1px; /* Thin scrollbar */
+          transform: translate(-400px);
 }
 
 #article-header{
@@ -256,8 +254,14 @@ a{
           left: 40vw;
           font-family: Georgia, 'Times New Roman', Times, serif;
           border: 1px black solid;
+          opacity: 1;
 }
 
 #search:focus{
           outline: none;
+          opacity: 1;
+}
+
+#search:active{
+          opacity: 1;
 }
